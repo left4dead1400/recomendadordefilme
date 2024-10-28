@@ -18,9 +18,9 @@ function draw() {
   let gostaDeAventura = campoAventura.checked();
   let recomendacao = geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura);
 
-  fill(color(76, 0, 115));
+  fill(color(60, 0, 95));
   textAlign(CENTER, CENTER);
-  textSize(38);
+  textSize(40);
   text(recomendacao, width / 2, height / 2);
 }
 
